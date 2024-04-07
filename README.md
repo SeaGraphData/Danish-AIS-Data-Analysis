@@ -1,13 +1,9 @@
 # Danish AIS Data Analysis
 
-
-# Web Scraping with ShipInfo data
-
 The **Danish AIS Data Analysis** module consists of a python-based Jupyter-notebook 
-designed to analyze and Visualize AIS data using the [Danish Maritime Authority (DMA)](https://www.dma.dk/safety-at-sea/navigational-information/ais-data) historical data. These static values can be found in the DMA website, following the sections 
+designed to analyze and Visualize AIS data using the [Danish Maritime Authority (DMA)](https://www.dma.dk/safety-at-sea/navigational-information/ais-data) historical data. These static values can be found in the DMA website, following the sections **Safety at Sea -> Navigational Information -> AIS Data -> Section 3 Histoerical Data**. The files are given in csv format because they are quite big (around 3 GB), it could not be possible to attach here. However, the user can go freely and downloaded.
 
-
-The idea behind this code is to obtain as much information as possible while one is working with AIS data, data which usually some values are missed and it should be a nice procedure to compare with other sources of information.  
+The case here shared is based on 15 March 2024 and it has been cleaned and visuaslized specific cases uasing Folium and others libraries.
 
 
 For any questions about this repository, please contact me via juan.fernandez.sea@gmail.com
@@ -38,7 +34,8 @@ discussed below.
 |---|---|---|---|
 |python|3.10.13|PSF|https://docs.python.org/3/license.html|
 |matplotlib|3.8.3|PSFL|https://matplotlib.org/stable/users/project/license.html|
-|beautifulsoup4|4.12.3|MIT|https://pypi.org/project/beautifulsoup4/|
+|pandas|2.2.1|BSD-3|https://pandas.pydata.org|
+|numpy|1.3.0|BSD-3|https://numpy.org/doc/stable/index.html|
 
 
 

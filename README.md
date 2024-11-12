@@ -1,4 +1,4 @@
-# Danish AIS Data Analysis
+# Danish AIS Data Analysis & Visualization
 
 The **Danish AIS Data Analysis** module consists of a python-based Jupyter-notebook 
 designed to analyze and Visualize AIS data using the [Danish Maritime Authority (DMA)](https://www.dma.dk/safety-at-sea/navigational-information/ais-data) historical data. These static values can be found in the DMA website, following the sections **Safety at Sea -> Navigational Information -> AIS Data -> Section 3 Historical Data**. The files are given in csv format and because they are quite big (around 3 GB), it could not be possible to attach here. However, the user can go freely to the website and download them.
